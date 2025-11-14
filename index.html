@@ -1,0 +1,264 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sudharani Hadalagi — Data Science Portfolio</title>
+
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+
+  <!-- Main -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- PARTICLES BACKDROP -->
+  <div id="particles-js" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <div class="logo-circle">SH</div>
+        <div class="logo-text">Sudharani Hadalagi</div>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-list" id="navList">
+          <li><a class="nav-link" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#certifications">Certifications</a></li>
+          <li><a class="nav-link" href="#data-motion">Data in Motion</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme"><i class="fa-solid fa-sun"></i></button>
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Open menu"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+
+    <!-- mobile overlay menu -->
+    <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+      <button id="mobileClose" class="mobile-close" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+      <ul class="mobile-nav">
+        <li><a href="#home" class="mobile-link">Home</a></li>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#projects" class="mobile-link">Projects</a></li>
+        <li><a href="#skills" class="mobile-link">Skills</a></li>
+        <li><a href="#certifications" class="mobile-link">Certifications</a></li>
+        <li><a href="#data-motion" class="mobile-link">Data in Motion</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section id="home" class="hero section" data-aos="fade-up">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1 class="hero-name">Sudharani Hadalagi</h1>
+          <div class="hero-sub">
+            <span class="pill">Data Science Portfolio</span>
+            <h2 id="rotator" class="hero-rotator" aria-live="polite"></h2>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">Explore My Work</a>
+            <a href="assets/resume.pdf" class="btn btn-ghost" download><i class="fa-solid fa-download"></i> Resume</a>
+          </div>
+
+          <p class="hero-desc">Turning complex data into clear, actionable stories. Based in Belagavi — open to internships & remote collaboration.</p>
+        </div>
+
+        <div class="hero-right" aria-hidden="true">
+          <!-- decorative card with subtle elevation -->
+          <div class="profile-card glass">
+            <img src="assets/sudha.jpeg" alt="Sudharani Hadalagi" class="avatar" width="84" height="84" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/gh/akabab/avatars/png/v1/1.png'" />
+            <div class="pc-body">
+              <h3>Sudharani Hadalagi</h3>
+              <p>Data Science Associate</p>
+              <div class="socials">
+                <a href="https://linkedin.com/in/sudharanihadalagi" target="_blank" rel="noopener" title="LinkedIn — Sudharani Hadalagi"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/sudharani-09" target="_blank" rel="noopener" title="GitHub — sudharani-09"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section" data-aos="fade-up">
+      <div class="container">
+        <div class="card-grid glass">
+          <div class="card-text">
+            <h2>About Me</h2>
+            <p>"A Data Enthusiast from Belagavi passionate about transforming raw data into meaningful insights. As a BCA Graduate and Data Science Associate, I specialize in turning complex datasets into compelling stories that drive decision-making. With expertise in Python, SQL, R, and powerful visualization tools like Tableau and Power BI, I bridge the gap between data and actionable insights. My journey combines technical proficiency with a creative approach to problem-solving."</p>
+          </div>
+          <div class="card-art">
+            <img src="assets/data.jpeg" alt="Data Science Analytics" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education -->
+    <section id="experience" class="section" data-aos="fade-up">
+      <div class="container">
+        <h2>Experience & Education</h2>
+        <div class="exp-grid">
+          <div class="exp-card glass">
+            <i class="fa-solid fa-briefcase icon"></i>
+            <h3>Data Science Associate</h3>
+            <p class="muted">Xcel Corp • <span class="dates">Dec 2024 – Jan 2025</span></p>
+          </div>
+          <div class="exp-card glass">
+            <i class="fa-solid fa-graduation-cap icon"></i>
+            <h3>Bachelor of Computer Applications</h3>
+            <p class="muted">KLS Gogte College of Commerce • 2022 – 2025 • <strong>CGPA: 8.6</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section" data-aos="fade-up">
+      <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+          <article id="proj-travel" class="project glass">
+            <div class="proj-media">
+              <img src="assets/travel.jpeg" alt="Travel Destination Clustering" loading="lazy" decoding="async" />
+            </div>
+            <div class="proj-body">
+              <h3>Travel Destination Clustering</h3>
+              <p>Developed a machine learning model to cluster travel destinations based on user preferences using K-Means, feature engineering, and segmentation analysis.</p>
+              <p class="tags"><span>Python</span><span>K-Means</span><span>Pandas</span><span>Scikit-learn</span><span>Data Visualization</span></p>
+              <div class="proj-actions">
+                <a href="https://github.com/sudharani-09" target="_blank" rel="noopener" class="btn btn-sm btn-ghost"><i class="fa-brands fa-github"></i> View Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article id="proj-unicorns" class="project glass">
+            <div class="proj-media">
+              <img src="assets/tableau.jpeg" alt="Global Startup Unicorns Dashboard" loading="lazy" decoding="async" />
+            </div>
+            <div class="proj-body">
+              <h3>Global Startup Unicorns Dashboard</h3>
+              <p>Created an interactive Tableau dashboard visualizing valuations, funding trends, and geographic distribution for global unicorns.</p>
+              <p class="tags"><span>Tableau</span><span>Data Analysis</span><span>Business Intelligence</span></p>
+              <div class="proj-actions">
+                <a href="https://github.com/sudharani-09" target="_blank" rel="noopener" class="btn btn-sm btn-ghost"><i class="fa-brands fa-github"></i> View Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section" data-aos="fade-up">
+      <div class="container glass">
+        <h2>Skills & Tools</h2>
+        <div class="skills-grid">
+          <div class="skill-col">
+            <h4><i class="fa-solid fa-code"></i> Programming</h4>
+            <p>Python, SQL, R, Pandas, NumPy</p>
+          </div>
+          <div class="skill-col">
+            <h4><i class="fa-solid fa-chart-simple"></i> Visualization</h4>
+            <p>Tableau, Power BI, Excel, Matplotlib, Seaborn</p>
+          </div>
+          <div class="skill-col">
+            <h4><i class="fa-solid fa-brain"></i> Machine Learning</h4>
+            <p>Scikit-learn, K-Means, Feature Engineering, Data Modeling</p>
+          </div>
+        </div>
+        <blockquote class="quote">"Continuously learning and exploring new technologies in the ever-evolving field of data science"</blockquote>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section" data-aos="fade-up">
+      <div class="container glass">
+        <h2>Certifications & Achievements</h2>
+        <ul class="cert-list">
+          <li><i class="fa-solid fa-ribbon"></i> <strong><a href="https://www.coursera.org/account/accomplishments/verify/ETPRQYEEHHQA?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" target="_blank" rel="noopener">Foundation of Data Science</a></strong> — Google (Coursera), May 2024</li>
+          <li><i class="fa-solid fa-ribbon"></i> <strong><a href="https://www.coursera.org/account/accomplishments/verify/RL5LZV7MWF2L?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" target="_blank" rel="noopener">Get Started with Python</a></strong> — Google (Coursera), July 2024</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Data in Motion -->
+    <section id="data-motion" class="section" data-aos="fade-up">
+      <div class="container glass">
+        <h2>Data in Motion</h2>
+        <p class="muted">Click on any data point to see it come alive</p>
+        <div class="motion-grid">
+          <button class="metric-card" data-value="85" data-label="Data Analysis">
+            <div class="metric-head"><strong>Data Analysis</strong><span class="metric-num">0%</span></div>
+            <div class="metric-bar"><div class="metric-fill"></div></div>
+          </button>
+          <button class="metric-card" data-value="92" data-label="Insights">
+            <div class="metric-head"><strong>Insights</strong><span class="metric-num">0%</span></div>
+            <div class="metric-bar"><div class="metric-fill"></div></div>
+          </button>
+          <button class="metric-card" data-value="78" data-label="Collaboration">
+            <div class="metric-head"><strong>Collaboration</strong><span class="metric-num">0%</span></div>
+            <div class="metric-bar"><div class="metric-fill"></div></div>
+          </button>
+          <button class="metric-card" data-value="88" data-label="Impact">
+            <div class="metric-head"><strong>Impact</strong><span class="metric-num">0%</span></div>
+            <div class="metric-bar"><div class="metric-fill"></div></div>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section" data-aos="fade-up">
+      <div class="container">
+        <div class="contact-grid glass">
+          <div class="contact-form">
+            <h2>Get In Touch</h2>
+            <p>If you'd like to reach out, send me an email and I'll get back to you shortly.</p>
+            <a class="btn btn-primary" href="mailto:sudharanihadalagi@gmail.com"><i class="fa-solid fa-envelope"></i> Email Me</a>
+            <p class="form-status" aria-live="polite">Or use the contact details on the right.</p>
+          </div>
+
+          <aside class="contact-info">
+            <h3>Contact</h3>
+            <p><strong>Email:</strong> <a href="mailto:sudharanihadalagi@gmail.com">sudharanihadalagi@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sudharanihadalagi" target="_blank" rel="noopener">linkedin.com/in/sudharanihadalagi</a></p>
+            <div class="badge">Available for internships & freelance — remote OK</div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2025 Sudharani Hadalagi — Where Data Meets Design <span class="heart">♡</span></p>
+        <a href="#home" id="scrollTop" class="scroll-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
